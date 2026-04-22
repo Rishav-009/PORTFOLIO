@@ -1,0 +1,122 @@
+section{
+    display:flex;
+    margin-bottom:40px;
+    margin-left:50px;
+}
+.name{
+    font-size:60px;
+    color:rgb(83, 8, 83);
+    margin-left:30px;
+    
+}
+.content{
+    display:inline;
+    display:flex;
+}
+.contentcl{
+    display:flex;
+    gap:30px;
+    margin-right:40px;
+    color:blue;
+}
+.topcontent{
+    font-size:15px;
+    margin-left:40px;
+}
+.topcontentbutton{
+    
+    margin-left:400px;
+}
+main{
+    display:flex;
+    background-color:beige;
+}
+.rightPart{
+    height:600px;
+    width:600px;
+    
+}
+.nameRole{
+    display:inline;
+}
+
+.leftPart{
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    margin-left:80px;
+}
+.introName{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:25px;
+    color:rgb(124, 74, 124);
+    margin-bottom:60px;
+
+}
+.role{
+    font-size:60px;
+    color:red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.web{
+    color:gray;
+    margin-right:10px;
+}
+.des{
+    color:black;
+}
+.introPara{
+    margin-bottom:50px;
+}
+.button{
+    margin-left:100px;
+    background-color:rgb(177, 149, 204);
+    border:none;
+    height:25px;
+    padding-top:5px;
+    padding-left:10px;
+    padding-bottom:15px;
+    padding-right:10px;
+    border-radius:25px;
+    cursor:pointer
+}
+.dp{
+    border-radius:5000px;
+}
+.socialB{
+    height:5px;
+    width:5px;
+    margin-left:50px;
+    margin-right:50px;
+}
+.pics{
+    height:100px;
+    cursor:pointer;
+}
+.divider{
+    display:flex;
+}
+.dropdown{
+    display:inline-block;
+    position:relative;
+}
+.dropdown a{
+    display:block;
+    color:black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown-menu{
+    display: none;
+    background-color:hsl(0, 0%, 95%);
+    position: absolute;
+    min-width : 100px;
+    box-shadow : 2px 2px 5px rgba(0, 0, 0, 0.39);
+}
+.dropdown:hover .dropdown-menu{
+    display:block;
+    background-color:hsl(0, 0%, 100%)
+}
+.dropdown a:hover{
+    background-color:hsl(0, 0%, 95%)
+}
