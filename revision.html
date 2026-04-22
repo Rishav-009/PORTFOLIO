@@ -4,91 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#">home</a>
-            <a href="#">about</a>
-            <a href="#">linkdn</a>
-            <a href="#">leetcode</a>
-        </nav>
-        <div>
-            <img src = "amazon-logo-editorial-vector-illustration-market-136495269.webp" 
-            alt="image could'nt be loaded, refresh"
-            style="height: 50px;
-            width: 50px;
-            background-color:black;
-            border:2px solid black;
-            ">
-            <h1>WELCOME TO OUR SITE WE SELL THINGS HERE</h1>
-        </div>
-    </header>
-
-    <main>
-
-        <!--HERE WE WRITE OUR MAIN DATA -->
-        <!--there is only one main per page-->
-        <aside>
-            <span>
-                <a href="www.google.com">
-                    click here to get the sidebar on a link
-                </a>
-            </span>
-            <!--here we have the side bar on left-->
-        </aside>
-        <section>
-            <!--here this will act as the div for -->
-            <article>
-                <!-- these are used to get independent items-->
-                 <p>here is the unordered list</p>
-                 <ul>
-                   <li>rishav</li>
-                   <li>navroz</li>
-                   <li>navi</li>
-                   <li>lucky</li> 
-                 </ul>
-                 <ol>
-                    <li>rishav</li>
-                    <li><a href="http://google.com" target="_blank">navroz</a></li>
-                    <li>navi</li>
-                    <li>lucky</li>
-                 </ol>
-            </article>
-        </section>
-        <section>
-            <!--PREVIOUS SECTION WAS FOR THE LIST THIS IS FOR the FORMS-->
-            <form>
-              <h>FILL THE FORM AND SUBMIT</h>
-              <br>
-              <hr>
-
-              <div>
-                <label>username:</label>
-                <input type="text">
-                <br>
-                <br>
-                <label>password:</label>
-                <input type="password">
-                <br>
-                <br>
-                <label>your email:</label>
-                <input type="email">
-                <br>
-                <br>         
+        <section >
+            <div class="namecl">
+                <span class="name">RISHAV</span>
+            </div>
+            <div class="contentcl">
+                <nav>
+                <a class="topcontent">HOME</a>
+                <a class="topcontent">ABOUT</a>
+                <a class="topcontent">PORTFOLIO</a>
+                <a class="topcontent"href="https://www.linkedin.com/in/rishav-singh-93290b28b/" target="_blank">LinkdIn</a>
+                <a class="topcontent"> contact</a>
+                <button class="topcontentbutton">Lets's Talk</button>
+                </nav>
+            </div>    
                 
-                <button>SUBMIT</button>
-              </div>
-              
-              
-            </form>
+                
+        </section>
+    </header>
+    <main>
+        <section class="leftPart">
+            <div class="nameRole">
+                <h2 class="introName">Hi , I'm Rishav Singh</h2>
+                <h3 class="role"><span class="web">WEB</span><span class="des">DESIGNER</span></h3>
+            </div>
+            <p class="introPara">Hi, I'm Rishav, a web development learner currently building my skills in HTML, CSS, and JavaScript. I enjoy creating simple, responsive websites and continuously improving my understanding of modern web technologies.</p>
+            <div class="divider">
+                <div class="dropdown">
+                    <button class="button">Projects</button>
+                    <div class="dropdown-menu">
+                        <a href="">E-COMMERCE</a>
+                        <a href="">AI-PROJECTS</a>
+                        <a href="">COURSES</a>
 
+                    </div>
+                </div>
+                
 
+                <button class="button">Hire Me</button>
+            </div>
+            
+        </section>
+        <section class="rightPart">
+            <img class="dp" src="port.jpeg">
         </section>
     </main>
     <footer>
-        <!--THIS IS FOOTER OF OUR WEBSITE-->
-        <p>this contains the coppyrightss of 2026</p>
+        <a class="socialB">
+            <img class="pics" src="images.png">
+        </a>
+        <a class="socialB">
+            <img class="pics" src="insta.jpeg">
+        </a>
+        <a class="socialB">
+            <img  class="pics" src="linkdn.png">
+        </a>
     </footer>
 </body>
 </html>
